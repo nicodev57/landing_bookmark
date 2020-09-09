@@ -1,0 +1,23 @@
+/* ---- Image ----*/
+
+.info__img--img {
+  width: 115%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  margin-left: -20px;
+}
+
+.img2 {
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+.social-media--icon {
+  display: block;
+}
+
+.social-media--icon:hover {
+  cursor: pointer;
+}

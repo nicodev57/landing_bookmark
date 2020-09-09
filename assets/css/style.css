@@ -1,0 +1,349 @@
+/* ---- layout ---- */
+/* ---- colors ---- */
+/* ---- Typography ---- */
+/* ---- BODY ----*/
+body {
+  width: 375px;
+  overflow-x: hidden;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+/*---- MAIN ---- */
+.main {
+  padding: 0 30px;
+}
+
+/* ---- HEADER ----*/
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* ---- SECTION ----*/
+.features,
+.bookmark__image2 {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+.bookmark__image2 {
+  margin-top: 0px;
+}
+
+.download {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.questions {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.section__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 360px;
+  background-color: #5368df;
+  text-align: center;
+}
+
+/* ---- DIV ----*/
+.info__img {
+  margin: 70px 0 50px 0;
+  height: 270px;
+  position: relative;
+}
+
+.info__background,
+.bookmark__background {
+  width: 90%;
+  height: 200px;
+  background-color: #5368df;
+  border-radius: 100px 0 0 100px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  margin-right: -30px;
+}
+
+.info__text {
+  text-align: center;
+}
+
+.info__text--div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* section features */
+.features__div {
+  margin-bottom: 40px;
+}
+
+.featuresls {
+  width: 300px;
+  border-top: 2px solid #f0f0f1;
+  margin: 0 auto;
+}
+
+.feature3 {
+  border-bottom: 2px solid #f0f0f1;
+}
+
+.feature__line {
+  height: 4px;
+  width: 150px;
+  background-color: #fa5757;
+  margin: 0 auto;
+}
+
+/* section bookmark__image2  */
+.bookmark__img {
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.bookmark__background {
+  rotate: 180deg;
+  left: -35px;
+  bottom: -34px;
+}
+
+/* section download */
+.cards {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #f0f0f1;
+  border-top: none;
+  border-radius: 20px;
+  height: 300px;
+  padding-top: 50px;
+  margin-top: 40px;
+  box-shadow: -1px 13px 35px -22px #bfbdbf;
+}
+
+.card1,
+.card2,
+.card3 {
+  border-bottom: 5px dotted #f0f0f1;
+  margin-bottom: 25px;
+}
+
+.questions__list {
+  margin: 50px 0 100px 0;
+}
+
+.question {
+  display: flex;
+  width: 80%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #f0f0f1;
+  margin: 0 auto;
+}
+
+.footer__section1 {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer__links {
+  height: 100px;
+}
+
+.footer__social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+/* ---- FOOTER ----*/
+.footer {
+  height: 360px;
+  background-color: #252b46;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* ---- NAV ----*/
+/* ---- Link ----*/
+.links__f {
+  display: block;
+  margin-bottom: 25px;
+  color: #f0f0f1;
+  text-decoration: none;
+  font-size: 0.8 0.5em;
+}
+
+/* ---- List ----*/
+/* ---- TITLE ----*/
+.title,
+.title2,
+.title3,
+.title4 {
+  color: #252b46;
+}
+
+.title {
+  font-size: 1.7em;
+}
+
+.title2 {
+  font-size: 1.2em;
+}
+
+.title3 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.questions__title {
+  font-size: 1.2em;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.form__title {
+  font-size: 1.2em;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+/* ---- PGRAPHS ----*/
+.pgraph {
+  color: #9194a1;
+}
+
+.text__pgraph,
+.features__pgraph,
+.bookmark__pgraph,
+.download__info--pgraph {
+  font-size: 15.5px;
+  line-height: 25px;
+}
+
+.features__pgraph,
+.bookmark__pgraph,
+.download__info--pgraph,
+.questions__pgraph {
+  padding: 0 26px;
+}
+
+.card-graph {
+  font-size: 0.7em;
+}
+
+.questions__pgraph {
+  line-height: 25px;
+  font-size: 0.8em;
+  width: 300px;
+}
+
+.question__pgraph {
+  font-size: 0.8em;
+  color: #252b46;
+}
+
+.form__pgraph {
+  color: white;
+  font-size: 0.6em;
+  line-height: 25px;
+}
+
+/* ---- Button ----*/
+.button {
+  padding: 15px 15px;
+  font-size: 15px;
+  border: none;
+  background-color: #5368df;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button1 {
+  box-shadow: 0px 9px 5px -3px rgba(83, 104, 223, 0.48);
+}
+
+.button2 {
+  background-color: #f0f0f1;
+  color: #252b46;
+  box-shadow: 0px 9px 5px -3px rgba(0, 0, 0, 0.15);
+}
+
+.download__cards--button {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.questions__button {
+  margin-top: 40px;
+}
+
+.ques__button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button__box {
+  background-color: #fa5757;
+  font-size: 0.7em;
+  width: 80%;
+  color: #f0f0f1;
+  margin-top: 20px;
+}
+
+/* ---- Form ----*/
+.input__box {
+  width: 80%;
+  margin: 0;
+  border: none;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 0.7em;
+  color: #9194a1;
+}
+
+/* ---- Image ----*/
+.info__img--img {
+  width: 115%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  margin-left: -20px;
+}
+
+.img2 {
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+.social-media--icon {
+  display: block;
+}
+
+.social-media--icon:hover {
+  cursor: pointer;
+}

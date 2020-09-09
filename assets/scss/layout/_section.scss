@@ -1,0 +1,32 @@
+/* ---- SECTION ----*/
+
+.features,
+.bookmark__image2 {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+.bookmark__image2 {
+  margin-top: 0px;
+}
+
+.download {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.questions {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.section__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 360px;
+  background-color: $azul;
+  text-align: center;
+}
+

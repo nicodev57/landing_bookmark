@@ -1,0 +1,41 @@
+/* ---- PGRAPHS ----*/
+
+.pgraph {
+  color: $gris;
+}
+
+.text__pgraph, 
+.features__pgraph,
+.bookmark__pgraph,
+.download__info--pgraph {
+  font-size: $size - 2.5px;
+  line-height: 25px;
+}
+
+.features__pgraph,
+.bookmark__pgraph,
+.download__info--pgraph,
+.questions__pgraph{
+  padding: 0 26px;
+}
+
+.card-graph {
+  font-size: .7em;
+}
+
+.questions__pgraph {
+  line-height: 25px;
+  font-size: .8em;
+  width: 300px;
+}
+
+.question__pgraph {
+  font-size: .8em;
+  color: $azulOscuro;
+}
+
+.form__pgraph {
+  color: white;
+  font-size: .6em;
+  line-height: 25px;
+}

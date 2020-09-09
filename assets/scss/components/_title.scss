@@ -1,0 +1,37 @@
+/* ---- TITLE ----*/
+
+.title,
+.title2,
+.title3, 
+.title4 {
+  color: $azulOscuro;
+}
+
+.title {
+  font-size: 1.7em;
+}
+
+.title2 {
+  font-size: 1.2em;
+}
+
+.title3 {
+  font-size: 1em;
+  font-weight: $pesoMenor;
+}
+
+.questions__title {
+  font-size: 1.2em;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: $pesoMayor;
+}
+
+.form__title {
+  font-size: 1.2em;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-weight: $pesoMayor;
+}

@@ -1,0 +1,50 @@
+/* ---- Button ----*/
+
+.button {
+  padding: 15px 15px;
+  font-size: $size - 3px;
+  border: none;
+  background-color: $azul;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button1 {
+  -webkit-box-shadow: 0px 9px 5px -3px rgba(83,104,223,0.48);
+  -moz-box-shadow: 0px 9px 5px -3px rgba(83,104,223,0.48);
+  box-shadow: 0px 9px 5px -3px rgba(83,104,223,0.48);
+}
+
+.button2 {
+  background-color: $grisClaro;
+  color: $azulOscuro;
+  -webkit-box-shadow: 0px 9px 5px -3px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 9px 5px -3px rgba(0,0,0,0.15);
+  box-shadow: 0px 9px 5px -3px rgba(0,0,0,0.15);
+}
+
+.download__cards--button {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.questions__button {
+  margin-top: 40px;
+}
+
+.ques__button {
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+.button__box {
+  background-color: $rosado;
+  font-size: .7em;
+  width: 80%;
+  color: $grisClaro;
+  margin-top: 20px
+}
